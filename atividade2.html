@@ -7,27 +7,25 @@
 
 
 <body>
-<script>type="Aposentadoria"
+<script>type="imc"
 
-var nome=mario;
-var idade=90;
-var carteira assinada=40;
- 
+var atura=180;
+var peso=80; 
 
 
+var altua = prompt('Digite qual sua altura.');
+//var nome = prompt('Digite seu nome.');
+//var sexo= prompt('Digite qual seu sexo.');
+var peso= prompt('Digite qual seu peso.');
 
-var nome = prompt('Digite seu nome.');
-var sexo= prompt('Digite qual seu sexo.');
-var idade= prompt('Digite qual seu idade.');
-
-var Aposentadoria=idade+carteira assinada;
+var imc=peso/(altua *altua);
 
 
-alert("seu valor de aposentadoria é:" + aposentadoria );
-if( aposentadoria < 90){
-alert("não pode se aposentadoria")} else 
-if (aposentadoria >= 90){
-alert ("pode se aposentadoria")}
+alert("Sua imc é:" + imc );
+if(imc <29){
+alert("Normal")} else 
+if (imc >= 30){
+alert ("acima do peso")}
 
 
 
